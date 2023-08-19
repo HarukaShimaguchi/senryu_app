@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いつも心に川柳を-川柳生成サイト-</title>
+    <link rel="stylesheet" href="senryu.css">
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <form id="poem-form">
+            <label for="theme">テーマ：</label>
+            <input type="text" id="theme" name="theme" required>
+            <button type="submit">生成する</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>生成された川柳：</h2>
+            <p id="poem"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
